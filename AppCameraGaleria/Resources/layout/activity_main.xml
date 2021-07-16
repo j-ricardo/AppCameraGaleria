@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/llOpcoesImagem" >
+        <Button
+            android:text="Capturar foto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"            
+            android:layout_weight="1"            
+            android:padding="20dp"
+            android:id="@+id/bCamera" />
+        <TextView
+            android:text="ou"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:id="@+id/textView1" />
+        <Button
+            android:text="Escolha uma imagem da galeria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"            
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:id="@+id/bGaleria" />
+    </LinearLayout>
+    
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivImage" />
+</LinearLayout>
