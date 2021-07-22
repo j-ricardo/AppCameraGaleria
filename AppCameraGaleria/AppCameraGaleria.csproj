@@ -103,6 +103,15 @@
     <PackageReference Include="Plugin.Permissions">
       <Version>6.0.1</Version>
     </PackageReference>
+    <PackageReference Include="SixLabors.ImageSharp">
+      <Version>1.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="SkiaSharp">
+      <Version>2.80.3</Version>
+    </PackageReference>
+    <PackageReference Include="SkiaSharp.Views">
+      <Version>2.80.3</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Plugin.Media">
       <Version>5.0.1</Version>
     </PackageReference>
